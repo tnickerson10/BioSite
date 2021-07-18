@@ -126,7 +126,7 @@ li a:hover {
 
 #about-me-contents {
     text-align: center;
-    
+    margin-top: 12%;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     font-size: 27px;
     padding-left: 30px;
@@ -136,6 +136,7 @@ li a:hover {
     text-transform: uppercase;
     font-size: 50px;
     margin-top: 10px;
+    color: coral;
     text-shadow: 4px 4px grey;
 
 }
@@ -154,13 +155,21 @@ li a:hover {
     border-radius: 5px;
     border: 1px solid gray;
     box-shadow: -5px 5px 5px #22252C;
-    background-color: coral;
+    background-color: #22252C;
     
 }
 
 #about-me-img img {
-    height: 100%;
+    margin-top: 75px;
+    height: 75%;
     width: 75%;
+    border-radius: 5px;
+    filter: brightness(100%);
+}
+
+#about-me-img img:hover {
+    transform: scale(1.05);
+    filter: brightness(80%);
     
 }
 
@@ -181,7 +190,7 @@ li a:hover {
     grid-template-columns: auto auto auto;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #accomplishment-title h1 {
@@ -202,7 +211,7 @@ li a:hover {
     margin-top: 15px;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    
+    margin-bottom: 40px;
 }
 
 footer {
