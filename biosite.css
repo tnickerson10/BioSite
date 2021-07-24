@@ -79,8 +79,9 @@ input {
 }
 
 input:hover {
-    border: 1px solid #22252C;
+    border: 1px solid ivory;
     background-color: coral;
+    opacity: 0.5;
     cursor: pointer;
 }
 
