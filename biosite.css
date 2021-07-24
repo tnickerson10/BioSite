@@ -9,12 +9,21 @@ body {
     height: 100vh;
     opacity: 0.95;
     filter: brightness(60%);
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+
+    
 } 
 
 #hero-image {
     position: relative;
     background: linear-gradient(to right, navy, coral);
     height: 100vh;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+
 }
 
 #overlay-container {
@@ -28,7 +37,12 @@ body {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     font-size: 17px;
     line-height: 22px;
-    text-transform: uppercase;
+   text-transform: uppercase;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+
+    
 }
 
 #overlay-title {
@@ -42,6 +56,7 @@ body {
     font-weight: lighter;
     font-style: italic;
     margin-top: 60px;
+    padding: 0px 10px 0px 10px;
 }
 
 figcaption {
