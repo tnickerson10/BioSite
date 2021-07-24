@@ -263,6 +263,7 @@ li a:hover {
 }
 
 #hobby-img-container form input:hover {
+    border-color: ivory;
     opacity: 0.5;
 }
 
