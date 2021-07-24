@@ -134,7 +134,7 @@ li a {
 }
 
 li a:hover {
-    color: #22252C;
+    color: coral;
     border-bottom: 3px solid coral;
     padding-bottom: 5px;
 }
