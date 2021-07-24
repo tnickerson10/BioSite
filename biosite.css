@@ -150,11 +150,13 @@ li a:hover {
 }
 
 #about-button form input {
-    background-color: coral
+    background-color: #22252C;
+    opacity: 0.75;
 }
 
 #about-button form input:hover{
-    background-color: #22252C;
+    opacity: 0.8;
+    background-color:coral;
     border-color: coral;
 }
 
@@ -258,6 +260,10 @@ li a:hover {
 #hobby-img-container form input {
     animation: left-to-right 1s ease-in;
     width: 280px;
+}
+
+#hobby-img-container form input:hover {
+    opacity: 0.5;
 }
 
 @keyframes left-to-right {
