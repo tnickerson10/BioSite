@@ -139,6 +139,25 @@ li a:hover {
     padding-bottom: 5px;
 }
 
+#about-button {
+    position: relative;
+}
+
+#about-button form {
+    position: absolute;
+    top: 85%;
+    left: 75%;  
+}
+
+#about-button form input {
+    background-color: coral
+}
+
+#about-button form input:hover{
+    background-color: #22252C;
+    border-color: coral;
+}
+
 #about-me-container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -228,6 +247,23 @@ li a:hover {
 
 #hobby-img-container {
     position: relative;
+}
+
+#hobby-img-container form {
+    position: absolute;
+    top: 85%;
+    left: 10%;  
+}
+
+#hobby-img-container form input {
+    animation: left-to-right 1s ease-in;
+    width: 280px;
+}
+
+@keyframes left-to-right {
+    0% {
+        transform: translateX(-200%);
+    }
 }
 
 #hobby-img-container p {
