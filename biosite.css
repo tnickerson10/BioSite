@@ -314,6 +314,9 @@ li a:hover {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     margin-bottom: 40px;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #hobby-img-container {
@@ -391,6 +394,9 @@ li a:hover {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     margin-bottom: 40px;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #acc-img-container {
@@ -432,51 +438,59 @@ footer p {
 
 #acc-1 {
     border: 1px solid gray;
-    border-radius: 3px;
+    border-radius: 20px;
     box-shadow: -5px 5px 5px #22252C;
     margin: 10px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     background-image: url(images/background7.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #acc-2 {
     border: 1px solid gray;
-    border-radius: 3px;
+    border-radius: 20px;
     box-shadow: -5px 5px 5px #22252C;
     margin: 10px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     background-image: url(images/background8.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
-
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #acc-3 {
     border: 1px solid gray;
-    border-radius: 3px;
+    border-radius: 20px;
     box-shadow: -5px 5px 5px #22252C;
     margin: 10px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     background-image: url(images/background7.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
-
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #acc-1 img {
     width: 75%;
     height: 250px;
-    border-radius: 300px;
+    border-radius: 20px;
     object-fit: cover;
     filter: brightness(80%);
+    
 }
 
 #acc-2 img {
     width: 75%;
     height: 250px;
-    border-radius: 300px;
+    border-radius: 20px;
     object-fit: cover;
     filter: brightness(80%);
 }
@@ -484,7 +498,7 @@ footer p {
 #acc-3 img {
     width: 75%;
     height: 250px;
-    border-radius: 300px;
+    border-radius: 20px;
     object-fit: cover;
     filter: brightness(80%);
 }
@@ -493,19 +507,27 @@ footer p {
     transform: scale(1.10);
     filter: brightness(100%);
     box-shadow: -5px 5px 5px #22252C;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #acc-2 img:hover {
     transform: scale(1.10);
     filter: brightness(100%);
     box-shadow: -5px 5px 5px #22252C;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #acc-3 img:hover {
     transform: scale(1.10);
     filter: brightness(100%);
     box-shadow: -5px 5px 5px #22252C;
-
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #acc-1 p {
@@ -528,46 +550,56 @@ footer p {
 
 #hobby-1 {
     border: 1px solid coral;
-    border-radius: 3px;
+    border-radius: 20px;
     box-shadow: -5px 5px 5px coral;
     margin: 10px;
     background-image: url(images/background1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #hobby-2 {
     border: 1px solid coral;
-    border-radius: 3px;
+    border-radius: 20px;
     box-shadow: -5px 5px 5px coral;
     margin: 10px;
     background-image: url(images/background5.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #hobby-3 {
     border: 1px solid coral;
-    border-radius: 3px;
+    border-radius: 20px;
     box-shadow: -5px 5px 5px coral;
     margin: 10px;
     background-image: url(images/background1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #hobby-1 img {
     width: 75%;
     height: 250px;
-    border-radius: 3px;
+    border-radius: 20px;
     object-fit: cover;
-    filter: brightness(80%);   
+    filter: brightness(80%);
+       
 }
 
 #hobby-2 img {
     width: 75%;
     height: 250px;
-    border-radius: 3px;
+    border-radius: 20px;
     object-fit: cover;
     filter: brightness(80%);   
 
@@ -576,7 +608,7 @@ footer p {
 #hobby-3 img {
     width: 75%;
     height: 250px;
-    border-radius: 3px;
+    border-radius: 20px;
     object-fit: cover;
     filter: brightness(80%);   
 }
@@ -585,20 +617,27 @@ footer p {
     transform: scale(1.10);
     filter: brightness(100%);
     box-shadow: -5px 5px 5px #22252C;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #hobby-2 img:hover {
     transform: scale(1.10);
     filter: brightness(100%);
     box-shadow: -5px 5px 5px #22252C;
-
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #hobby-3 img:hover {
     transform: scale(1.10);
     filter: brightness(100%);
     box-shadow: -5px 5px 5px #22252C;
-
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #hobby-1 p {
