@@ -29,10 +29,10 @@ body {
 
 #overlay-container {
     position: absolute;
-    width: 25%;
+    width: 20%;
     height: 100vh;
     top: 0;
-    margin-left: 66%;
+    margin-left: 68%;
     text-align: center;
     color: antiquewhite;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
