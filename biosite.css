@@ -15,7 +15,7 @@ body {
 #home-img {
     object-fit: cover;
     object-position: 10% 50%;
-    width: 55%;
+    width: 75%;
     height: 100vh;
     opacity: 0.95;
     filter: brightness(60%);   
@@ -65,7 +65,8 @@ figcaption {
     font-style: italic;
     color: ivory;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-size: 30px;
 }
 
 form {  
@@ -103,7 +104,7 @@ input:hover {
 }
 
 #about-img {
-    width: 65%; 
+    width: 75%; 
     height: 100vh;
     opacity: 0.95;
     margin: 0px;
@@ -184,7 +185,7 @@ li a:hover {
     margin: 0px;
     border-radius: 50px;
     object-fit: cover;
-    opacity: 0.40;
+    opacity: 0.90;
 }
 
 #cali-img:hover {
@@ -239,7 +240,7 @@ li a:hover {
     -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 #about-me-contents h2 {
@@ -275,10 +276,9 @@ li a:hover {
     text-align: center;
     margin: 105px 75px;
     padding: 0px;
-    border-radius: 20px;
-    border: 1px solid gray;
+    border-radius: 50px;
     box-shadow: -5px 5px 5px #22252C;
-    background-color: #22252C;
+    background-color: #90c0a8;
     -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
@@ -288,8 +288,11 @@ li a:hover {
     margin-top: 75px;
     height: 75%;
     width: 75%;
-    border-radius: 5px;
+    border-radius: 50px;
     filter: brightness(70%);
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #about-me-img img:hover {
@@ -652,20 +655,21 @@ footer p {
 
 #hobby-1 p {
     font-style: italic;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 40px;
+    text-shadow: 5px 5px 5px #90c0a8;
 }
 
 #hobby-2 p {
     font-style: italic;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 40px;
 }
 
 #hobby-3 p {
     font-style: italic;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 40px;
 }
 
 h2 {
