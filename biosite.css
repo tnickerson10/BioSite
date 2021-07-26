@@ -172,12 +172,33 @@ li a:hover {
     margin: 0px;
 }
 
+#iowa-img {
+    position: absolute;
+    top: 15%;
+    right: 7%;
+    width: 400px;
+    height: 300px;
+    box-shadow: 20px 20px 20px coral;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75); 
+    margin: 0px;
+    border-radius: 50px;
+    object-fit: cover;
+    opacity: 0.90;
+}
+
+#iowa-img:hover {
+    transform: scale(1.10);
+    opacity: 0.90;
+}
+
 #cali-img {
     position: absolute;
-    top: 25%;
-    right: 5.5%;
-    width: 450px;
-    height: 350px;
+    top: 50%;
+    right: 7%;
+    width: 400px;
+    height: 300px;
     box-shadow: 20px 20px 20px coral;
     -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
@@ -196,7 +217,7 @@ li a:hover {
 #about-img-container form {
     margin: 0px;
     position: absolute;
-    top: 85%;
+    top: 87%;
     right: 12%; 
 }
 
@@ -319,6 +340,7 @@ li a:hover {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     margin-bottom: 40px;
+    background-color: #b1bedb;
     -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
@@ -326,6 +348,7 @@ li a:hover {
 
 #hobby-img-container {
     position: relative;
+    
 }
 
 #hobby-img-container form {
@@ -343,8 +366,7 @@ li a:hover {
     text-transform: uppercase;
     border-radius: 20px;
     width: 200px;
-    box-shadow: 10px 10px 20px #22252C;  
-    animation: left-to-right 1s ease-in;
+    animation: left-to-right 1.5s ease-in;
     width: 280px;
 }
 
@@ -372,7 +394,8 @@ li a:hover {
     font-style: italic;
     line-height: 35px;
     text-transform: uppercase;
-    animation: right-to-left 1s ease-in;
+    animation: right-to-left 1.5s ease-in;
+    
 }
 
 #quote {
@@ -399,6 +422,7 @@ li a:hover {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     margin-bottom: 40px;
+    background-color: #90c0a8;
     -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
@@ -422,7 +446,7 @@ li a:hover {
     font-style: italic;
     line-height: 35px;
     text-transform: uppercase;
-    animation: right-to-left 1.2s ease-in;
+    animation: right-to-left 1.5s ease-in;
 }
 
 footer {
@@ -443,12 +467,14 @@ footer p {
 }
 
 #acc-1 {
-    border: 1px solid gray;
+    width: 80%;
     border-radius: 20px;
     box-shadow: -5px 5px 5px #22252C;
-    margin: 10px;
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    background-image: url(images/background7.jpg);
+    background-image: url(images/baby-card.jpg);
     background-repeat: no-repeat;
     object-fit: ;
     background-size: 100% 50%;
@@ -458,12 +484,14 @@ footer p {
 }
 
 #acc-2 {
-    border: 1px solid gray;
+    width: 80%;
     border-radius: 20px;
     box-shadow: -5px 5px 5px #22252C;
-    margin: 10px;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    background-image: url(images/background8.jpg);
+    background-image: url(images/wedding2-card.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: 100% 50%;
@@ -473,19 +501,30 @@ footer p {
 }
 
 #acc-3 {
-    border: 1px solid gray;
+    width: 80%;
     border-radius: 20px;
     box-shadow: -5px 5px 5px #22252C;
     margin: 10px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    background-image: url(images/background7.jpg);
+    background-image: url(images/grad2-card.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
     object-fit: cover;
-    
     -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+#acc-1:hover {
+    transform: scale(1.10);
+}
+
+#acc-2:hover {
+    transform: scale(1.10);
+}
+
+#acc-3:hover {
+    transform: scale(1.10);
 }
 
 #acc-1 img {
@@ -493,7 +532,6 @@ footer p {
     height: 250px;
     border-radius: 20px;
     object-fit: cover;
-    object-position: 20% 20%;
     filter: brightness(80%);
     
 }
@@ -511,7 +549,6 @@ footer p {
     height: 250px;
     border-radius: 20px;
     object-fit: cover;
-    object-position: 20% 10%;
     filter: brightness(80%);
 }
 
@@ -544,27 +581,32 @@ footer p {
 
 #acc-1 p {
     font-style: italic;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 40px;
+    
 }
 
 #acc-2 p {
     font-style: italic;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 40px;
+    
 }
 
 #acc-3 p {
     font-style: italic;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 40px;
+    
 }
 
 #hobby-1 {
-    border: 1px solid coral;
+    width: 80%;
     border-radius: 20px;
     box-shadow: -5px 5px 5px coral;
-    margin: 10px;
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-image: url(images/background1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
@@ -574,10 +616,12 @@ footer p {
 }
 
 #hobby-2 {
-    border: 1px solid coral;
+    width: 80%;
     border-radius: 20px;
     box-shadow: -5px 5px 5px coral;
-    margin: 10px;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-image: url(images/background5.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
@@ -587,16 +631,28 @@ footer p {
 }
 
 #hobby-3 {
-    border: 1px solid coral;
+    width: 80%;
     border-radius: 20px;
     box-shadow: -5px 5px 5px coral;
     margin: 10px;
-    background-image: url(images/background1.jpg);
+    background-image: url(images/exercise-card.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
     -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+#hobby-1:hover {
+    transform: scale(1.10);
+}
+
+#hobby-2:hover {
+    transform: scale(1.10);
+}
+
+#hobby-3:hover {
+    transform: scale(1.10);
 }
 
 #hobby-1 img {
@@ -657,7 +713,6 @@ footer p {
     font-style: italic;
     font-size: 20px;
     padding: 40px;
-    text-shadow: 5px 5px 5px #90c0a8;
 }
 
 #hobby-2 p {
