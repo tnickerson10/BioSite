@@ -2,130 +2,10 @@ body {
     margin: 0;
     padding: 0;
 }
-#logo {
-    float: left;
-    font-style: italic;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    margin-left: 30px;
+
+h2 {
     font-size: 30px;
-    color: ivory;
-    opacity: 0.60;
-}
-#home-img {
-    object-fit: cover;
-    object-position: 10% 50%;
-    width: 75%;
-    height: 100vh;
-    opacity: 0.95;
-    filter: brightness(60%);   
-} 
-
-#hero-image {
-    position: relative;
-    background: linear-gradient(to right, navy, coral);
-    height: 100vh;
-}
-
-#overlay-container {
-    position: absolute;
-    width: 20%;
-    height: 100vh;
-    top: 0;
-    margin-left: 68%;
-    text-align: center;
-    color: antiquewhite;
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    font-size: 17px;
-    line-height: 22px;
-    text-transform: uppercase;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75); 
-    
-}
-
-#overlay-title {
-    line-height: 50px;
-    font-size: 45px;
-    margin-top: 35%;
-    border-bottom: 6px solid #22252C;
-    padding-bottom: 15%;
-}
-
-#overlay-container p {
-    line-height: 1.65;
-    font-size: 17px;
-    font-style: italic;
-    margin-top: 30px;
-    padding: 0px 20px 0px 20px;
-}
-
-figcaption {
-    font-style: italic;
-    color: ivory;
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    margin-top: 20px;
-    font-size: 30px;
-}
-
-form {  
-    text-align: center;
-}
-
-input {
-    border: 1px solid ;
-    background: transparent;
-    color: ivory;
-    font-size: 20px;
-    padding: 10px;
-    text-transform: uppercase;
-    border-radius: 20px;
-    width: 200px;
-    box-shadow: 10px 10px 20px #22252C;  
-    animation: right-to-left 1s ease-in;
-}
-
-@keyframes right-to-left {
-    0% {
-        transform: translateX(200%);
-    }
-
-    50% {
-        transform: translateX(100%);
-    }
-}
-
-input:hover {
-    border: 1px solid ivory;
-    background-color: coral;
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-#about-img {
-    width: 75%; 
-    height: 100vh;
-    opacity: 0.95;
-    margin: 0px;
-    padding: 0px;
-    filter: brightness(60%);
-}
-
-#hobbies-img {
-    width: 100%; 
-    height: 100vh;
-    opacity: 0.95;
-    filter: brightness(60%);
-    
-}
-
-#accomp-img {
-    width: 100%; 
-    height: 100vh;
-    opacity: 0.95;
-    filter: brightness(60%);
-    
+    color: #22252C;
 }
 
 #nav-bar {
@@ -161,6 +41,114 @@ li a:hover {
     padding-bottom: 5px;
 }
 
+#logo {
+    float: left;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    margin-left: 30px;
+    font-size: 30px;
+    color: ivory;
+    opacity: 0.60;
+}
+#home-img {
+    object-fit: cover;
+    object-position: 10% 50%;
+    width: 75%;
+    height: 100vh;
+    opacity: 0.95;
+    filter: brightness(60%);   
+} 
+
+#hero-image {
+    position: relative;
+    background: linear-gradient(to right, navy, coral);
+    height: 100vh;
+}
+
+#overlay-container {
+    position: absolute;
+    width: 30%;
+    height: 100vh;
+    top: 0;
+    margin-left: 60%;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 12px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75); 
+    
+}
+
+#overlay-title {
+    line-height: 50px;
+    font-size: 45px;
+    margin-top: 30%;
+    border-bottom: 6px solid #22252C;
+    padding-bottom: 15%;
+}
+
+#overlay-container p {
+    line-height: 1.65;
+    font-size: 17px;
+    font-style: italic;
+    margin-top: 30px;
+    padding: 0px 20px 0px 20px;
+}
+
+figcaption {
+    font-style: italic;
+    color: ivory;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+form {  
+    text-align: center;
+}
+
+input, #about-img-container form input {
+    border: 1px solid ;
+    background: transparent;
+    color: ivory;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 200px;
+    box-shadow: 10px 10px 20px #22252C;  
+    animation: right-to-left 1s ease-in;
+}
+
+input:hover {
+    border: 1px solid ivory;
+    background-color: coral;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#about-img {
+    width: 75%; 
+    height: 100vh;
+    opacity: 0.95;
+    margin: 0px;
+    padding: 0px;
+    filter: brightness(60%);
+}
+
+#hobbies-img, #accomp-img {
+    width: 100%; 
+    height: 100vh;
+    opacity: 0.95;
+    filter: brightness(60%);
+    
+}
+
 #about-img-container {
     position: relative;
     background-color: #22252C;
@@ -172,12 +160,12 @@ li a:hover {
     margin: 0px;
 }
 
-#iowa-img {
+#iowa-img, #cali-img {
     position: absolute;
     top: 15%;
-    right: 7%;
-    width: 400px;
-    height: 300px;
+    right: 10%;
+    width: 20%;
+    height: 30%;
     box-shadow: 20px 20px 20px coral;
     -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
@@ -185,31 +173,14 @@ li a:hover {
     margin: 0px;
     border-radius: 50px;
     object-fit: cover;
-    opacity: 0.90;
-}
-
-#iowa-img:hover {
-    transform: scale(1.10);
     opacity: 0.90;
 }
 
 #cali-img {
-    position: absolute;
-    top: 50%;
-    right: 7%;
-    width: 400px;
-    height: 300px;
-    box-shadow: 20px 20px 20px coral;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75); 
-    margin: 0px;
-    border-radius: 50px;
-    object-fit: cover;
-    opacity: 0.90;
+    top: 50%;  
 }
 
-#cali-img:hover {
+#iowa-img:hover, #cali-img:hover {
     transform: scale(1.10);
     opacity: 0.90;
 }
@@ -219,19 +190,6 @@ li a:hover {
     position: absolute;
     top: 87%;
     right: 12%; 
-}
-
-#about-img-container form input {
-    border: 1px solid ;
-    background: transparent;
-    color: ivory;
-    font-size: 20px;
-    padding: 10px;
-    text-transform: uppercase;
-    border-radius: 20px;
-    width: 200px;
-    box-shadow: 10px 10px 20px #22252C;  
-    animation: right-to-left 1s ease-in;
 }
 
 #about-img-container form input:hover{
@@ -268,15 +226,15 @@ li a:hover {
     margin-left: -40px;
     text-transform: uppercase;
     font-size: 50px;
-    margin-top: 10%;
+    margin-top: 5%;
     color: coral;
     text-shadow: 4px 4px grey;
 
 }
 
 #about-me-contents p {
-    margin-top: 10%;
-    font-size: 18px;
+    margin-top: 5%;
+    font-size: 16px;
     line-height: 1.50;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     padding-right: 5%;
@@ -284,10 +242,13 @@ li a:hover {
 
 #about-me-contents img {
     position: absolute;
-    height: 80%;
+    height: 70%;
     width: 80%;
-    margin-left: -41%;
-    margin-top: -80%;
+    margin: auto;
+    top: 7%;
+    left: 0;
+    bottom: 0;
+    right: 0;
     border-radius: 400px;
     z-index: -1;
     opacity: 0.35;
@@ -318,11 +279,10 @@ li a:hover {
 
 #about-me-img img:hover {
     transform: scale(1.05);
-    filter: brightness(100%);
-    
+    filter: brightness(100%);  
 }
 
-#hobbies-title h1 {
+#hobbies-title h1, #accomplishment-title h1 {
     text-align: center;
     text-shadow: 4px 4px grey;
     text-transform: uppercase;
@@ -333,22 +293,8 @@ li a:hover {
     margin: 30px;
 }
 
-#hobby-container {
-    text-align: center;
-    display: grid;
-    grid-template-columns: 33.333% 33.333% 33.333%;
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    background-color: #b1bedb;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
-
 #hobby-img-container {
-    position: relative;
-    
+    position: relative;  
 }
 
 #hobby-img-container form {
@@ -375,12 +321,6 @@ li a:hover {
     opacity: 0.5;
 }
 
-@keyframes left-to-right {
-    0% {
-        transform: translateX(-200%);
-    }
-}
-
 #hobby-img-container p {
     position: absolute;
     width: 25%;
@@ -394,8 +334,7 @@ li a:hover {
     font-style: italic;
     line-height: 35px;
     text-transform: uppercase;
-    animation: right-to-left 1.5s ease-in;
-    
+    animation: right-to-left 1.5s ease-in;   
 }
 
 #quote {
@@ -403,18 +342,65 @@ li a:hover {
     margin-top: 20px;
 }
 
-#accomplishment-title h1 {
-    text-align: center;
-    text-shadow: 4px 4px grey;
-    text-transform: uppercase;
-    color: #22252C;
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    font-size: 50px;
-    padding: 5px;
-    margin: 30px;
+#hobby-1, #hobby-2, #hobby-3 {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px #22252C;
+    float: left;
+    margin-left:10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100% 50%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
-#accomplishment-container {
+#hobby-1 {
+    background-image: url(images/background1.jpg);
+}
+
+#hobby-2 {
+    background-image: url(images/background5.jpg);
+}
+
+#hobby-3 {
+    
+    background-image: url(images/exercise-card.jpg);
+}
+
+#hobby-1:hover, #hobby-2:hover, #hobby-3:hover {
+    transform: scale(1.10);
+}
+
+#hobby-1 img, #hobby-2 img, #hobby-3 img {
+    width: 50%;
+    height: 40%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 20% 60%;
+    filter: brightness(80%);     
+}
+
+#hobby-1 img:hover, #hobby-2 img:hover, #hobby-3 img:hover {
+    transform: scale(1.10);
+    filter: brightness(100%);
+    box-shadow: -5px 5px 5px #22252C;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+#hobby-1 p, #hobby-2 p, #hobby-3 p {
+    font-style: italic;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#accomplishment-container, #hobby-container {
     text-align: center;
     display: grid;
     grid-template-columns: 33.333% 33.333% 33.333%;
@@ -449,6 +435,71 @@ li a:hover {
     animation: right-to-left 1.5s ease-in;
 }
 
+
+#acc-1, #acc-2, #acc-3 {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px #22252C;
+    float: left;
+    margin-left:10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100% 50%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+#acc-1 {
+    background-image: url(images/baby-card.jpg);
+}
+
+#acc-2 {
+    background-image: url(images/wedding2-card.jpg);
+}
+
+#acc-3 {
+    background-image: url(images/grad2-card.jpg);
+}
+
+#acc-1:hover, #acc-2:hover, #acc-3:hover{
+    transform: scale(1.10);
+}
+
+
+#acc-1 img, #acc-2 img, #acc-3 img {
+    width: 50%;
+    height: 40%;
+    border-radius: 20px;
+    object-fit: cover;
+    filter: brightness(80%);   
+}
+
+#acc-1 img:hover, #acc-2 img:hover, #acc-3 img:hover {
+    transform: scale(1.10);
+    filter: brightness(100%);
+    box-shadow: -5px 5px 5px #22252C;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+#acc-1 p, #acc-2 p, #acc-3 p {
+    font-style: italic;
+    font-size: 15px;
+    padding: 5px;  
+}
+
+em {
+    color: #22252C;
+    font-size: 50px;
+    padding-top: 15px;
+    text-shadow: 3px 3px grey;
+}
+
 footer {
     position: relative;
     background-color: coral;
@@ -466,296 +517,20 @@ footer p {
     color: #22252C;
 }
 
-#acc-1 {
-    width: 80%;
-    border-radius: 20px;
-    box-shadow: -5px 5px 5px #22252C;
-    margin-left: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    background-image: url(images/baby-card.jpg);
-    background-repeat: no-repeat;
-    object-fit: ;
-    background-size: 100% 50%;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+@keyframes left-to-right {
+    0% {
+        transform: translateX(-200%);
+    }
 }
 
-#acc-2 {
-    width: 80%;
-    border-radius: 20px;
-    box-shadow: -5px 5px 5px #22252C;
-    margin-left: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    background-image: url(images/wedding2-card.jpg);
-    background-repeat: no-repeat;
-    object-fit: cover;
-    background-size: 100% 50%;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
+@keyframes right-to-left {
+    0% {
+        transform: translateX(200%);
+    }
 
-#acc-3 {
-    width: 80%;
-    border-radius: 20px;
-    box-shadow: -5px 5px 5px #22252C;
-    margin: 10px;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    background-image: url(images/grad2-card.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
-    object-fit: cover;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
-
-#acc-1:hover {
-    transform: scale(1.10);
-}
-
-#acc-2:hover {
-    transform: scale(1.10);
-}
-
-#acc-3:hover {
-    transform: scale(1.10);
-}
-
-#acc-1 img {
-    width: 50%;
-    height: 250px;
-    border-radius: 20px;
-    object-fit: cover;
-    filter: brightness(80%);
-    
-}
-
-#acc-2 img {
-    width: 50%;
-    height: 250px;
-    border-radius: 20px;
-    object-fit: cover;
-    filter: brightness(80%);
-}
-
-#acc-3 img {
-    width: 50%;
-    height: 250px;
-    border-radius: 20px;
-    object-fit: cover;
-    filter: brightness(80%);
-}
-
-#acc-1 img:hover {
-    transform: scale(1.10);
-    filter: brightness(100%);
-    box-shadow: -5px 5px 5px #22252C;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
-
-#acc-2 img:hover {
-    transform: scale(1.10);
-    filter: brightness(100%);
-    box-shadow: -5px 5px 5px #22252C;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
-
-#acc-3 img:hover {
-    transform: scale(1.10);
-    filter: brightness(100%);
-    box-shadow: -5px 5px 5px #22252C;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
-
-#acc-1 p {
-    font-style: italic;
-    font-size: 20px;
-    padding: 40px;
-    
-}
-
-#acc-2 p {
-    font-style: italic;
-    font-size: 20px;
-    padding: 40px;
-    
-}
-
-#acc-3 p {
-    font-style: italic;
-    font-size: 20px;
-    padding: 40px;
-    
-}
-
-#hobby-1 {
-    width: 80%;
-    border-radius: 20px;
-    box-shadow: -5px 5px 5px coral;
-    margin-left: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-image: url(images/background1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
-
-#hobby-2 {
-    width: 80%;
-    border-radius: 20px;
-    box-shadow: -5px 5px 5px coral;
-    margin-left: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-image: url(images/background5.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
-
-#hobby-3 {
-    width: 80%;
-    border-radius: 20px;
-    box-shadow: -5px 5px 5px coral;
-    margin: 10px;
-    background-image: url(images/exercise-card.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
-
-#hobby-1:hover {
-    transform: scale(1.10);
-}
-
-#hobby-2:hover {
-    transform: scale(1.10);
-}
-
-#hobby-3:hover {
-    transform: scale(1.10);
-}
-
-#hobby-1 img {
-    width: 50%;
-    height: 250px;
-    border-radius: 20px;
-    object-fit: cover;
-    object-position: 20% 60%;
-    filter: brightness(80%);
-       
-}
-
-#hobby-2 img {
-    width: 50%;
-    height: 250px;
-    border-radius: 20px;
-    object-fit: cover;
-    filter: brightness(80%);   
-
-}
-
-#hobby-3 img {
-    width: 50%;
-    height: 250px;
-    border-radius: 20px;
-    object-fit: cover;
-    filter: brightness(80%);   
-}
-
-#hobby-1 img:hover {
-    transform: scale(1.10);
-    filter: brightness(100%);
-    box-shadow: -5px 5px 5px #22252C;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
-
-#hobby-2 img:hover {
-    transform: scale(1.10);
-    filter: brightness(100%);
-    box-shadow: -5px 5px 5px #22252C;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
-
-#hobby-3 img:hover {
-    transform: scale(1.10);
-    filter: brightness(100%);
-    box-shadow: -5px 5px 5px #22252C;
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-}
-
-#hobby-1 p {
-    font-style: italic;
-    font-size: 20px;
-    padding: 40px;
-}
-
-#hobby-2 p {
-    font-style: italic;
-    font-size: 20px;
-    padding: 40px;
-}
-
-#hobby-3 p {
-    font-style: italic;
-    font-size: 20px;
-    padding: 40px;
-}
-
-h2 {
-    font-size: 30px;
-    color: #22252C;
-}
-
-em {
-    color: #22252C;
-    font-size: 50px;
-    padding-top: 15px;
-    text-shadow: 3px 3px grey;
-}
-
-#faq {
-    background-image: url(images/background1.jpg);
-    object-fit: cover;
-}
-
-#faq h1 {
-    color: #22252C;
-}
-
-#faq-header {
-    text-align: center;
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    background-color: coral;
-    height: 90px;
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-size: 17px;
+    50% {
+        transform: translateX(100%);
+    }
 }
 
 
