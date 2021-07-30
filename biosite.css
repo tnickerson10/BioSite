@@ -146,8 +146,10 @@ input:hover {
 
 #about-img-container {
     position: relative;
-    background-color: #22252C;
-    background: linear-gradient(to right, navy, coral);
+    background-image: url("images/classroom.jpeg");
+    background-size: 100% 100vh;
+    background-position: left;
+    background-repeat: no-repeat;
     -webkit-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(navy,0,0,0.75);
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75); 
