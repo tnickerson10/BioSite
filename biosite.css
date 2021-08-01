@@ -1,13 +1,22 @@
+/* 
+Travis Nickerson
+CSD 340
+July 28th, 2021
+*/
+
+/* Clears padding and margin for the body */
 body {
     margin: 0;
     padding: 0;
 }
+
 
 h2 {
     font-size: 30px;
     color: #22252C;
 }
 
+/* NAVIGATION */
 #nav-bar {
     background-color: #22252C;
     opacity: .65;
@@ -52,6 +61,8 @@ li a:hover {
     color: ivory;
     opacity: 0.60;
 }
+
+/* HOME PAGE */
 #home-img {
     object-fit: cover;
     width: 100%;
@@ -95,14 +106,7 @@ li a:hover {
     padding: 0px 20px 0px 20px;
 }
 
-figcaption {
-    font-style: italic;
-    color: ivory;
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    margin-top: 20px;
-    font-size: 30px;
-}
-
+/* FORMS AND INPUTS */
 form {  
     text-align: center;
 }
@@ -127,6 +131,15 @@ input:hover {
     cursor: pointer;
 }
 
+/* ABOUT ME PAGE */
+
+figcaption {
+    font-style: italic;
+    color: ivory;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 30px;
+}
 #about-img {
     width: 75%; 
     height: 100vh;
@@ -279,6 +292,8 @@ input:hover {
     filter: brightness(100%);  
 }
 
+/* HOBBIES PAGE */
+
 #hobbies-title h1, #accomplishment-title h1 {
     text-align: center;
     text-shadow: 4px 4px grey;
@@ -402,6 +417,8 @@ input:hover {
     padding: 5px;
 }
 
+/* ACCOMPLISHMENTS PAGE */
+
 #accomplishment-container, #hobby-container {
     text-align: center;
     display: grid;
@@ -500,12 +517,16 @@ input:hover {
     padding: 5px;  
 }
 
+/* ICONS */
+
 em {
     color: #22252C;
     font-size: 50px;
     padding-top: 15px;
     text-shadow: 3px 3px grey;
 }
+
+/* FOOTER */
 
 footer {
     position: relative;
@@ -524,6 +545,7 @@ footer p {
     color: #22252C;
 }
 
+/* KEYFRAMES FOR CSS ANIMATIONS */
 @keyframes left-to-right {
     0% {
         transform: translateX(-200%);
